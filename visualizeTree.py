@@ -69,7 +69,7 @@ def visualizeTree(tree_root):
             else:
                 add_id_annotation(orderable_node, is_leaf=True)
 
-    build_vertices_and_edges(tree)
+    build_vertices_and_edges(tree_root)
     
     G = Graph()
     G.add_vertices(vertices)
